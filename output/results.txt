@@ -1,0 +1,77 @@
+(one move cycle = 3 generations; 2000 generations per run)
+
+=== Item 6(b): MAIN_MATRIX, 20 seeds ===
+initial stress: mean 9.46, min 4.44, max 12.96
+final stress:   mean 1.68, min 0.84, max 2.96
+improved in 20 of 20 runs
+correlation(initial, final) = 0.03
+  seed  0:   6.88 ->  1.16   reached a STABLE configuration (fixed point) at generation 208
+  seed  1:   9.44 ->  2.96   reached a STABLE configuration (fixed point) at generation 284
+  seed  2:   7.68 ->  1.96   reached a STABLE configuration (fixed point) at generation 436
+  seed  3:   8.60 ->  2.16   reached a STABLE configuration (fixed point) at generation 432
+  seed  4:   6.64 ->  1.08   reached a STABLE configuration (fixed point) at generation 357
+  seed  5:  10.68 ->  2.12   reached a STABLE configuration (fixed point) at generation 151
+  seed  6:   4.44 ->  1.88   became PERIODIC from generation 137: the state repeats every 36 generations (= 12 move cycles)
+  seed  7:   9.12 ->  0.84   reached a STABLE configuration (fixed point) at generation 165
+  seed  8:  12.08 ->  2.48   reached a STABLE configuration (fixed point) at generation 220
+  seed  9:   9.36 ->  1.72   reached a STABLE configuration (fixed point) at generation 250
+  seed 10:  11.04 ->  1.08   reached a STABLE configuration (fixed point) at generation 381
+  seed 11:  12.96 ->  1.08   reached a STABLE configuration (fixed point) at generation 208
+  seed 12:  11.64 ->  0.92   reached a STABLE configuration (fixed point) at generation 221
+  seed 13:   9.80 ->  2.52   reached a STABLE configuration (fixed point) at generation 252
+  seed 14:  10.40 ->  2.12   reached a STABLE configuration (fixed point) at generation 238
+  seed 15:   9.56 ->  2.12   reached a STABLE configuration (fixed point) at generation 190
+  seed 16:   9.96 ->  1.00   reached a STABLE configuration (fixed point) at generation 296
+  seed 17:   8.60 ->  1.44   reached a STABLE configuration (fixed point) at generation 165
+  seed 18:   8.44 ->  1.24   reached a STABLE configuration (fixed point) at generation 259
+  seed 19:  11.88 ->  1.80   reached a STABLE configuration (fixed point) at generation 214
+
+=== Item 7: 'cities' (seed 1) ===
+stress: 6.90 -> 0.60
+dynamics: became PERIODIC from generation 182: the state repeats every 24 generations (= 8 move cycles)
+final actual distances (rows = guests, columns = A..E, T):
+[[ 0 16 18 29  6  7]
+ [16  0  9 15 18  5]
+ [18  9  0 11 20  6]
+ [29 15 11  0 31 17]
+ [ 6 18 20 31  0  9]]
+
+=== Item 7: 'chase' (seed 1) ===
+stress: 19.00 -> 19.00
+dynamics: no repetition of the full state was found
+final actual distances (rows = guests, columns = A..E, T):
+[[ 0 23 10 25 15 10]
+ [23  0 33  2 38 16]
+ [10 33  0 34  5 12]
+ [25  2 34  0 39 17]
+ [15 38  5 39  0 17]]
+
+=== Item 7: 'wallflowers' (seed 1) ===
+stress: 19.00 -> 7.80
+dynamics: reached a STABLE configuration (fixed point) at generation 165
+final actual distances (rows = guests, columns = A..E, T):
+[[ 0 39 39 39  6 18]
+ [39  0 38 39 33 18]
+ [39 38  0  1 39 17]
+ [39 39  1  0 39 18]
+ [ 6 33 39 39  0 17]]
+
+=== Item 7: 'knot' (seed 1) ===
+stress: 17.04 -> 1.96
+dynamics: reached a STABLE configuration (fixed point) at generation 125
+final actual distances (rows = guests, columns = A..E, T):
+[[0 1 5 6 1 2]
+ [1 0 4 5 1 1]
+ [5 4 0 1 5 1]
+ [6 5 1 0 5 1]
+ [1 1 5 5 0 1]]
+
+=== Item 7: 'table1' (seed 1) ===
+stress: 14.28 -> 1.12
+dynamics: reached a STABLE configuration (fixed point) at generation 235
+final actual distances (rows = guests, columns = A..E, T):
+[[0 5 6 7 5 6]
+ [5 0 2 3 3 8]
+ [6 2 0 1 1 6]
+ [7 3 1 0 2 5]
+ [5 3 1 2 0 5]]
